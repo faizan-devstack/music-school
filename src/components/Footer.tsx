@@ -81,10 +81,10 @@ function Footer() {
 
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Islamabad, Pakistan</p>
+          <p>04486</p>
+          <p>Email: faizan.devstack@gmail.com</p>
+          <p>Phone: (92) 302-9295335</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
