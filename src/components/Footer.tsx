@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -12,40 +12,41 @@ function Footer() {
             fostering a vibrant community of musicians.
           </p>
         </div>
+
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -53,38 +54,39 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <ul>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Facebook
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Twitter
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Instagram
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
+
 
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
           <p>Islamabad, Pakistan</p>
           <p>04486</p>
           <p>Email: faizan.devstack@gmail.com</p>
-          <p>Phone: (92) 302-9295335</p>
+          <p>Phone: (92) 123-4567890</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
